@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vision Web Tv</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.main.js"></script>
+	<script src="js/jquery.movingboxes.js"></script>
+	<!--[if lt IE 9]><link rel="stylesheet" media="all" href="css/ie.css" type="text/css"/><![endif]-->
+	<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+	<script>
+	$(function(){
+
+		$('#slider').movingBoxes({
+			/* width and panelWidth options deprecated, but still work to keep the plugin backwards compatible
+			width: 500,
+			panelWidth: 0.5,
+			*/
+			startPanel   : 1,      // start with this panel
+			wrap         : false,  // if true, the panel will infinitely loop
+			buildNav     : true,   // if true, navigation links will be added
+			navFormatter : function(){ return "&#9679;"; } // function which returns the navigation text for each panel
+		});
+
+	});
+	</script>
+</head>
+<body>
+<div id="wrapper">
+	<!-- header -->
+	<!-- header -->
+	   <header id="header">
+		<h1 class="logo"><a "></a></h1>
+		
+	</header>
+	<section id="main">
+		<div class="holder">		
+		<form action="#" class="logon-form">
+			<fieldset>
+				<h1><strong class="sorry">error!</strong> Network Connection Problem...</h1>
+				<p><strong></p>
+				
+			</fieldset>
+		</form>
+		</div>
+	</section>
+	</div>
+</body>
+</html>

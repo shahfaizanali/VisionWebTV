@@ -1,0 +1,36 @@
+body { min-width: 1000px; }
+#header .logo{
+	width:236px;
+	height:92px;
+}
+#wrapper {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01305a', endColorstr='#053661', GradientType=0 );}
+.user-area .user .btn-area { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaefb5', endColorstr='#e1e9a0', GradientType=0 ); }
+.btn-more{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 ); }
+.btn-more:hover{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49c0f0', endColorstr='#2cafe3', GradientType=0 );}
+.btn-more:active{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a', GradientType=0 ); }
+.btn-more.white { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce', GradientType=0 ); }
+.btn-more.white:hover { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 ); }
+.btn-more.white:active { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf', GradientType=0 ); }
+.tv-list .list li a,
+.channels-list li{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d73a0', endColorstr='#1d3a5a', GradientType=0 ); }
+.channels-list li.active,
+.tv-list .list li a:hover,
+.channels-list li:hover { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0 ); }
+.tv-list .list li a:hover:before { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0063c8', endColorstr='#002d71', GradientType=0 ); }
+.tv-list .list li a:hover{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e3', endColorstr='#9a9899', GradientType=0 ); }
+.links-area ul li a { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e7e3', endColorstr='#9a9899', GradientType=0 ); }
+.links-area ul li a:hover{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7', GradientType=0 ); }
+.links-area ul li a:before { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0 ); }
+.links-area ul li.sort a:before { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0 ); }
+.links-area ul li.favorite a:before {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04', GradientType=0 ); }
+.links-area ul li.move a:before {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7', GradientType=0 );}
+.logon-form .text{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0 ); }
+.logon-form .text.parent-focus { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0 );}
+.logon-form input[type="submit"]{ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0 );}
+.logon-form input[type="submit"]:hover {filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0 ); }
+a.mb-scrollButtons.mb-left{background: url(../images/arow-left.png) no-repeat 50% 50%;}
+a.mb-scrollButtons{background: url(../images/arow-right.png) no-repeat 50% 50%;}
+.latest-news:after{ background:#101010; }
+#main { padding: 140px 0 0; }
+.tv-list .list li a:hover:before{ background:#006894; }
+#header .header-holder { width: 70%; }
